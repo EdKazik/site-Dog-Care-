@@ -283,7 +283,43 @@ p {
   font-size: 22px;
   font-weight: 500;
 }
+.main__page3-cards {
+  display: flex;
+  /* gap: 64px; */
+  justify-content: space-between;
+  margin-bottom: 80px;
+}
+.card {
+  /* flex: 1 1 15%; */
+  max-width: 240px;
+}
+.img__block {
+  /* padding: 60px; */
+  border-collapse: collapse;
+  border-top-right-radius: 50%;
+  border-bottom-left-radius: 50%;
+  border-bottom-right-radius: 50%;
+  border-top-left-radius: 50%;
+  text-align: center;
+}
+.img__block > img {
+  padding: 60px 0;
+}
+.light-green__bg {
+  background-color: rgb(183, 252, 217);
+}
+.pink__bg {
+  background-color: #f1d0cf;
+}
+.card__text {
+  text-align: center;
+}
+.card__text > h3 {
+}
+.card__text > p {
+}
 
+/* ---------------------- PAGE 4 ------------------ */
 /* ---------------- */
 .right__block-photo {
   /* position: absolute;
