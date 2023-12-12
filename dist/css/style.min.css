@@ -916,7 +916,7 @@ h5 {
 /* ____________ PAGE 8 _____________ */
 .page8 {
   background-image: url("../images/ellipse-page8-pink.png");
-  background-position: top 50% left 0;
+  background-position: bottom 39% left 0;
   background-repeat: no-repeat;
   /* background-size: 133px 134px; */
 }
@@ -939,14 +939,15 @@ h5 {
 .main-block-3 > h5 {
   font-size: 20px;
   font-weight: 600;
-  margin-bottom: 0px;
+  margin-bottom: 20px;
 }
 .form__email-page8 {
   position: relative;
+  margin-bottom: 80px;
 }
 .input__email-page8 {
   width: 100%;
-  border: 2px solid red;
+  border: 2px solid rgb(133, 129, 129);
   border-radius: 20px;
   padding: 16px 0;
   font-size: 18px;
@@ -963,17 +964,27 @@ h5 {
   background: #6db0b8;
   border: none;
   cursor: pointer;
-  /* background-image: url("../images/arrow-right-svgrepo-com.svg");
-  background-repeat: no-repeat;
-  background-position: top 50% left 50%;
-  background-size: 24px 24px;
-  color: #808; */
 }
 .form__email-page8-button > svg {
   width: 20px;
   height: 20px;
 }
-
+.social-block {
+}
+.social-block > h5 {
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 16px;
+}
+.social-block-icons {
+  display: flex;
+  align-items: center;
+  gap: 17px;
+}
+.facebook-icon {
+}
+.instagram-icon {
+}
 .default__size-h5 > h5 {
   font-size: 20px;
   font-weight: 600;
@@ -1002,4 +1013,19 @@ h5 {
 .page8__footer {
   background: #fcf5f3;
   padding: 24px 0;
+}
+.page8__footer-block {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+.page8__footer-text {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  align-items: center;
+}
+.page8__footer-text-list {
+  display: flex;
+  gap: 24px;
 }
